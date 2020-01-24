@@ -302,11 +302,13 @@ footer {
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+  transition: all 0.5s;
 }
 .home .walk .walk-text .btn:hover {
   cursor: pointer;
-  background: #10131b;
-  transition: all 2s;
+  background: white;
+  color: #23293B;
+  transition: all 0.5s;
 }
 .home .walk .walk-text .btn:focus {
   outline: none;
