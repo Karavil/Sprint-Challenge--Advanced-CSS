@@ -190,9 +190,14 @@ b {
   transition: 0.5s;
 }
 .nav-container nav a:hover {
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+  color: #808080;
+  transition: 0.5s;
+}
+.nav-container nav h1 {
+  transition: 0.5s;
+}
+.nav-container nav h1:hover {
+  color: #808080;
   transition: 0.5s;
 }
 .nav-container nav .links {
