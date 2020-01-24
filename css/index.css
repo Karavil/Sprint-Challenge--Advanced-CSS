@@ -185,6 +185,16 @@ a {
   width: 50%;
   justify-content: space-between;
 }
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -238,14 +248,4 @@ a {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
