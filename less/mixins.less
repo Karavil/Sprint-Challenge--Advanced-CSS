@@ -2,14 +2,10 @@
 
 // Mixins in here
 
-.one-edge-shadow(@color:black) {
-	-webkit-box-shadow: 0 8px 6px -6px @color;
-	   -moz-box-shadow: 0 8px 6px -6px @color;
-	        box-shadow: 0 8px 6px -6px @color;
-}
-
-.dashed_bottom_border(@color: black) {
-    border-bottom: 2px dashed @color;
+.one-edge-shadow() {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 .button(@width: 200px, @background: black, @color: white, @border-radius: 5px) {
@@ -21,7 +17,7 @@
     border-style: none;
     font-size: 1.65rem;
     font-family: @Ubuntu;
-    .one-edge-shadow(rgba(0, 0, 0, 0.322));
+    .one-edge-shadow();
     transition: all 0.5s;
 
     &:hover {

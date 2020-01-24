@@ -187,6 +187,13 @@ b {
 .nav-container nav a {
   text-decoration: none;
   color: #454A59;
+  transition: 0.5s;
+}
+.nav-container nav a:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  transition: 0.5s;
 }
 .nav-container nav .links {
   display: flex;
@@ -299,9 +306,9 @@ footer {
   border-style: none;
   font-size: 1.65rem;
   font-family: 'Ubuntu', sans-serif;;
-  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
-  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
-  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
   transition: all 0.5s;
 }
 .home .walk .walk-text .btn:hover {
