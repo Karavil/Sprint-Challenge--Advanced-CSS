@@ -168,13 +168,18 @@ b {
   margin: 0 auto;
 }
 .nav-container {
-  background: #F6F6F6;
+  background: rgba(246, 246, 246, 0.9);
   border-bottom: 2px solid #F1F1F1;
   padding: 30px 15px 15px;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .nav-container {
     padding: 15px;
+    height: 110px;
   }
 }
 .nav-container nav {
@@ -182,7 +187,7 @@ b {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 100%;
 }
 .nav-container nav a {
   text-decoration: none;
@@ -195,6 +200,7 @@ b {
 }
 .nav-container nav h1 {
   transition: 0.5s;
+  margin: 0;
 }
 .nav-container nav h1:hover {
   color: #808080;
@@ -202,7 +208,7 @@ b {
 }
 .nav-container nav .links {
   display: flex;
-  width: 50%;
+  width: 400px;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
@@ -219,6 +225,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  margin-top: 120px;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    margin-top: 110px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
