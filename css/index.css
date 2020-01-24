@@ -240,6 +240,24 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  border-radius: 5px;
+  width: 100px;
+  background: black;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-style: none;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.322);
+  font-family: 'Ubuntu', sans-serif;;
+}
+.home .walk .walk-text .btn:hover {
+  cursor: pointer;
+  background: #000000;
+  transition: all 2s;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;

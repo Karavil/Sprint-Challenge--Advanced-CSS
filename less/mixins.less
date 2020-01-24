@@ -8,18 +8,18 @@
 	        box-shadow: 0 8px 6px -6px @color;
 }
 
-.dashed_bottom_border(@color: @silver) {
-    border-bottom: 2px dashed @navigation-border;
+.dashed_bottom_border(@color: black) {
+    border-bottom: 2px dashed @color;
 }
 
-.button(@width: 200px, @background: @eastern-blue, @color: @white) {
-    border-radius: 15px;
+.button(@width: 200px, @background: black, @color: white, @border-radius: 5px) {
+    border-radius: @border-radius;
     width: @width;
     background: @background;
     color: @color;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     border-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     .one-edge-shadow(rgba(0, 0, 0, 0.322));
 
     &:hover {
