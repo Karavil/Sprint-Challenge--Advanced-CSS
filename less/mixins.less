@@ -1,1 +1,30 @@
 // Mixins Here
+
+// Mixins in here
+
+.one-edge-shadow(@color:black) {
+	-webkit-box-shadow: 0 8px 6px -6px @color;
+	   -moz-box-shadow: 0 8px 6px -6px @color;
+	        box-shadow: 0 8px 6px -6px @color;
+}
+
+.dashed_bottom_border(@color: @silver) {
+    border-bottom: 2px dashed @navigation-border;
+}
+
+.button(@width: 200px, @background: @eastern-blue, @color: @white) {
+    border-radius: 15px;
+    width: @width;
+    background: @background;
+    color: @color;
+    padding: 1rem;
+    border-style: none;
+    font-size: 1.2rem;
+    .one-edge-shadow(rgba(0, 0, 0, 0.322));
+
+    &:hover {
+        cursor: pointer;
+        background: darken(@background, 10%);
+        transition: all 2s;
+    }
+}
