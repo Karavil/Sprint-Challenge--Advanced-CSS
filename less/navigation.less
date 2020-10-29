@@ -1,1 +1,56 @@
 // Navigation code here
+
+.nav-container {
+    background: fade(@nav-bg, 95%);
+    border-bottom: 2px solid @nav-border;
+    padding: 30px 15px 15px;
+    height: 120px;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+
+    @media @phone {
+        padding: 15px;
+        height: 110px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        a {
+            text-decoration: none;
+            color: @nav-font;
+            transition: 0.5s;
+
+            &:hover {
+                .lighten_text();
+                transition: 0.5s;
+            }
+        }
+
+        h1 {
+            transition: 0.5s;
+            margin: 0;
+
+            &:hover {
+                .lighten_text();
+                transition: 0.5s;
+            }
+        }
+
+        .links {
+            display: flex;
+            width: 400px;
+            justify-content: space-between;
+
+            @media @phone {
+                width: 90%;
+            }
+        }
+    }
+}
